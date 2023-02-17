@@ -54,6 +54,7 @@ public class ShipService {
         ship.setName(createShipDTO.getName());
         ship.setPower(createShipDTO.getPower());
         ship.setHealth(createShipDTO.getHealth());
+        ship.setCreated(createShipDTO.getCreated());
         ship.setCategory(category);
         ship.setUser(owner.get());
 
